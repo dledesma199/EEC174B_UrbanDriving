@@ -236,9 +236,15 @@ The `print_instruction.py` module provides functions for printing instructional 
 
 1. **`get_display_action(class_checks, class_counters, class_lost)`**
    - Determines the action message to display based on class checks, counters, and class lost status.
-   - "Stopped" message gets printed when `class_checks[0]` is `True` and `class_counters[0]` is between 30 and 90.
-   - "Stopping" message gets printed when `class_lost` is less than 30 or `class_checks[0]` or `class_checks[4]` are `True`, and `class_counters[0]` is greater than 89.
-   - Returns the action message to display.
+   - **"Stopped" message is displayed if:**
+     - A car is detected (`class_checks[4]` is `True`).
+     - Any of the following conditions are true: `class_checks[0]`, `class_checks[2]`, or `class_checks[3]`. This suggests a safety stop for certain detected objects.
+   - **"Stopping" message is displayed if:**
+     - A car is detected (`class_checks[4]` is `True`) and the counter is between 91 and 270, indicating a deceleration phase due to a detected car within a medium distance. This condition is designed to reflect a situation where the system is preparing to stop due to an obstacle but is not yet at the point where an immediate stop is necessary.
+   - **"Proceeding Route" message is displayed if:**
+     - `class_checks[0]` is `True` and `class_checks[4]` is `False`, and either `class_counters[0]` is greater than 270 or `class_lost` is greater than 60. This indicates the vehicle can proceed when no immediate obstruction is detected under specific counter conditions or lost class status.
+   - Returns the action message to display based on the highest priority of met conditions.
+
 
 2. **`get_display_scenario(class_checks, class_counter, segments)`**
    - Determines the scenario message to display based on class checks, class counter, and segment detection status.
