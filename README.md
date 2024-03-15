@@ -29,6 +29,7 @@
 8.  [Scenario Data Analysis Module Summary](#scenario-data-analysis-module-summary)
     - [`box_stat.py`](#`box_stat.py`)
 9.  ['Mean Brightness Factor Exploration'](#mean-brightness-factor-exploration)
+10. ['Behind the Scenes Filming of the Scenarios'](#behind-the-scenes-filming-of-the-scenarios)
 
 
 ## Introduction
