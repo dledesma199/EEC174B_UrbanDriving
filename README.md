@@ -85,10 +85,6 @@ To run the code, follow these steps:
    - After processing, the resulting annotated video will be saved in the  `.\ScenarioResults\InstructionResults` directory with the corresponding color map in `.\ScenarioResults\ColorMaps`
 
 Following these steps will allow you to successfully run the code and obtain the processed video output.
-### Behind the Scenes Filming of the Scenarios
-Here is how we filmed each scenario for our code to run on 
-
-[BTS_Scenarios](https://drive.google.com/drive/folders/1nnPA04dXbarg_GSgz6IoZJPLbidtglEj?usp=sharing)
 
 ### Instruction Results Video
 This is the visualization for the detections made by YOLO and Line detection
@@ -314,6 +310,12 @@ Here are examples of some plots using this exploration pipeline:
 
 
 ![{input_video_filename}-stop_sign_confidence_brightness_graph](https://github.com/dledesma2000/EEC174B_FinalSample/assets/74477926/56416f02-bc9a-4161-8e03-e52e989aeaa1)
+
+
+## Behind the Scenes Filming of the Scenarios
+Here is how we filmed each scenario for our code to run on 
+
+[BTS_Scenarios](https://drive.google.com/drive/folders/1nnPA04dXbarg_GSgz6IoZJPLbidtglEj?usp=sharing)
 
 
 To view the full exploration, motivation and analysis please follow the results from the report. 
