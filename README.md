@@ -85,6 +85,10 @@ To run the code, follow these steps:
    - After processing, the resulting annotated video will be saved in the  `.\ScenarioResults\InstructionResults` directory with the corresponding color map in `.\ScenarioResults\ColorMaps`
 
 Following these steps will allow you to successfully run the code and obtain the processed video output.
+### Behind the Scenes Filming of the Scenarios
+Here is how we filmed each scenario for our code to run on 
+
+[BTS_Scenarios](https://drive.google.com/drive/folders/1nnPA04dXbarg_GSgz6IoZJPLbidtglEj?usp=sharing)
 
 ### Instruction Results Video
 This is the visualization for the detections made by YOLO and Line detection
