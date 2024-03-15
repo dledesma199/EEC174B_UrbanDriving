@@ -1,0 +1,8 @@
+Video file: DistanceScenario
+Total frames: 485
+Average inference time: 0.22540505645201378
+Car counter: 0
+Stop sign counter: 0
+Car detection rate: 0.0
+Stop sign detection rate: 0.0
+

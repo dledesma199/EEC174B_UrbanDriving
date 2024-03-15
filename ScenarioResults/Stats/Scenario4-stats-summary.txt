@@ -1,0 +1,8 @@
+Video file: Scenario4
+Total frames: 244
+Average inference time: 0.15106982285859155
+Car counter: 0
+Stop sign counter: 0
+Car detection rate: 0.0
+Stop sign detection rate: 0.0
+

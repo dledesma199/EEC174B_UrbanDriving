@@ -1,0 +1,8 @@
+Video file: FocusScenario
+Total frames: 512
+Average inference time: 0.26118119060993195
+Car counter: 0
+Stop sign counter: 0
+Car detection rate: 1.0
+Stop sign detection rate: 0.0
+

@@ -1,0 +1,4 @@
+Video file: Scenario2
+Total frames: 26
+Average inference time: 0.24033470337207502
+
