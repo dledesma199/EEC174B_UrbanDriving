@@ -312,6 +312,7 @@ Here are examples of some plots using this exploration pipeline:
 
 ![{input_video_filename}-stop_sign_confidence_brightness_graph](https://github.com/dledesma2000/EEC174B_FinalSample/assets/74477926/56416f02-bc9a-4161-8e03-e52e989aeaa1)
 
+To view the full exploration, motivation and analysis please follow the results from the report. 
 
 ## Behind the Scenes Filming of the Scenarios
 Here is how we filmed each scenario for our code to run on 
@@ -319,5 +320,5 @@ Here is how we filmed each scenario for our code to run on
 [BTS_Scenarios](https://drive.google.com/drive/folders/1nnPA04dXbarg_GSgz6IoZJPLbidtglEj?usp=sharing)
 
 
-To view the full exploration, motivation and analysis please follow the results from the report. 
+
 
