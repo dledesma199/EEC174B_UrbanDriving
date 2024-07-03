@@ -1,6 +1,7 @@
 # DrivePerceptron
 ## Autonomous Vehicle Camera Perception Kit
 Daniel Ledesma, Ryan Liou, Anthony Goldhawk, Saif Maani
+
 ![logo_epic](https://github.com/dledesma2000/EEC174B_FinalSample/assets/74477926/d9702984-bc3c-4626-b4d8-478e467666e9)
 
 
